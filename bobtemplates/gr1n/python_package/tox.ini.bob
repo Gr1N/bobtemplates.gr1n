@@ -1,0 +1,15 @@
+[tox]
+envlist =
+  {{% if package.python2_support -%}}
+  py27,
+  {{% endif -%}}
+  py33
+
+[testenv]
+changedir = tests
+deps =
+  pytest
+commands =
+  py.test \
+    --basetemp={envtmpdir} \
+    -v {posargs}

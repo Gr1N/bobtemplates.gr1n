@@ -1,0 +1,3 @@
+graft {{{ package.name }}}
+prune *.md tests/ tox.ini .editorconfig
+include *.cfg *.rst *.in LICENSE

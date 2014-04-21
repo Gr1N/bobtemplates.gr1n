@@ -1,0 +1,23 @@
+{{{ package.name }}}
+=====
+
+{{{ package.description }}}
+
+
+Install
+-------
+
+```shell
+% pip install {{{ package.name }}}
+```
+
+Usage
+-----
+
+...
+
+
+License
+-------
+
+*{{{ package.name }}}* is licensed under the MIT license. See the license file for details.
