@@ -1,3 +1,14 @@
 graft {{{ package.name }}}
-prune *.md tests/ tox.ini .editorconfig
-include *.cfg *.rst *.in LICENSE
+
+include HISTORY.rst
+include LICENSE
+include README.rst
+
+prune tests
+
+exclude .editorconfig
+exclude README.md
+exclude tox.ini
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
